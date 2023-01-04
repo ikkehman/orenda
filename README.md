@@ -15,16 +15,20 @@ node index
 ## Route Documentation
 ### Route create user
 Endpoint: POST /api/register
+
 Headers: Content-type: application/json
 
 ### Route assign tasks to user
 Endpoint: POST /api/assign
+
 Headers: Content-type: application/json
 
 ### Route remove task(s) from user
 Endpoint: POST /api/unassign
+
 Headers: Content-type: application/json
 
 ### Route list all common tasks
 Endpoint: GET /api/tasks/common
+
 Headers: Content-type: application/json
